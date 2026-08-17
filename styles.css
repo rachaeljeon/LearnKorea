@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+/*----------------------------------------------------------------*/
+#header {
+
+    background-image: url("images/korea.avif");
+    background-size: cover;
+
+    font-family: "Merriweather", serif;
+
+    padding: 1px 0 400px 0;
+}
+
+#visit {
+    font-size: 80px;
+    color: rgb(216, 85, 85);
+    text-shadow: 7px 7px 10px black;
+
+}
+
+#learn {
+    font-size: 35px;
+    color: lightblue;
+    text-shadow: 7px 7px 10px black;
+
+}
+
+
+/*----------------------------------------------------------------*/
+#info {
+    font-family: "Nunito", sans-serif;
+    background-color: antiquewhite;
+
+    margin: 0px;
+}
+
+.nav-wrapper {
+    display: flex;;
+    justify-content: space-around;
+    background-color: aliceblue;
+
+    padding-top: 30px;
+    
+}
+
+#col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 10px;
+}
+
+#item {
+    margin: 20px 40px;
+}
+
+.round {
+    border: 10px solid black;
+    border-radius: 25%;
+}
+
+#bap-image {
+    width: 250px;
+    height: 200px;
+}
+
+#squid {
+    width: 270px;
+    height: 200px;
+}
+
+#hanbok {
+    width: 250px;
+    height: 200px;
+}
+
+/*----------------------------------------------------------------*/
+
+.card {
+
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 30px auto;
+
+    background: lightcyan;
+    border-bottom: 7px solid pink;
+    border-right: 4px solid pink;
+}
+
+#name {
+    text-shadow: 5px 5px 5px pink;
+}
+
